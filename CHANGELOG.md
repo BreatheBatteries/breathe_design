@@ -5,7 +5,7 @@
 ### Added
 
 - Progress bar to show simulation progress
-- Examples and utilities for performing montecarlo explorations of design variations, see `Manufacturing variability.ipynb`
+- Examples and utilities for performing Monte Carlo explorations of design variations.  See the example notebook `10 Manufacturing Variability.ipynb`
 
 ### Removed
 
