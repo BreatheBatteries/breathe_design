@@ -4,6 +4,17 @@ A python based api wrapper for running the breathe design model.
 
 ## Installation steps
 
+### In a new project or existing project
+
+In the virtual environment in your new or existing project, simply install `breathe_design` with
+```
+pip install breathe_design
+```
+
+### Using this repo
+
+If you want to work with the examples in this repo, follow these steps...
+
 - Open your terminal or command prompt.
 - Navigate to the directory or create new one where you want to setup.
 - Run the following command to clone our GitHub repository.
