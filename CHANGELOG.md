@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.0] - 13/11/2025
+
+### Changed
+
+- reduce minimum python version from `3.11` to `3.9`
+
+### Fixed
+
+- Bug that prevented `DCIR` simulations from running
+
 ## [1.1.0] - 02/10/2025
 
 ### Added

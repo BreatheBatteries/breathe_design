@@ -18,13 +18,16 @@ try {
     exit 1
 }
 
-# Check Python version (should be 3.11+)
-$VersionString = python -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')"
+# Check Python version
+$VersionString = python -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}')"
 $Version = [Version]$VersionString
-$MinVersion = [Version]"3.11"
+# NOTE that there is a bug in pyenv for versions 3.9.0-3.9.9 causing "Error: [WinError 2] The system cannot find the file specified" when creating the venv later
+# see https://github.com/pyenv-win/pyenv-win/issues/490#issuecomment-2772439699
+# Take care if you are using pyenv with 3.9 versions
+$MinVersion = [Version]"3.9"
 
 if ($Version -lt $MinVersion) {
-    Write-Host "Error: Python $Version found, but Python 3.11 or later is required." -ForegroundColor Red
+    Write-Host "Error: Python $Version found, but Python $MinVersion or later is required." -ForegroundColor Red
     Write-Host "Please upgrade Python: https://www.python.org/downloads/" -ForegroundColor Yellow
     exit 1
 }
