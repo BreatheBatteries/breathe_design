@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.1] - 14/11/2025
+
+### Added
+
+- Added additional information to error messages, to help debugging/bug hunting
+
+### Changed
+
+- Update readme with details of sign up form to register for api access
+
 ## [1.2.0] - 13/11/2025
 
 ### Changed

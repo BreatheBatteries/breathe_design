@@ -2,11 +2,14 @@
 
 A python based api wrapper for running the breathe design model.
 
+> **Registration Required**: To use the Breathe Design API, you must register for a free trial. You can sign up at [https://www.breathebatteries.com/breathe-design-free-trial](https://www.breathebatteries.com/breathe-design-free-trial).
+
 ## Installation steps
 
 ### In a new project or existing project
 
 In the virtual environment in your new or existing project, simply install `breathe_design` with
+
 ```
 pip install breathe_design
 ```
@@ -23,17 +26,22 @@ If you want to work with the examples in this repo, follow these steps...
   git clone https://github.com/BreatheBatteries/breathe_design.git .
   ```
 
- To set up everything in one go, just run `.\setupEnvironment.ps1`
+To set up everything in one go, just run `.\setupEnvironment.ps1`.
 
- Alternatively, run following command to create the virtual environment:
+That will create a virtual environment and install the requirements.
 
-  ```bash
-  python -m venv myvenv
-  ```
+## Alternative manual setup
 
-  Replace `myvenv` with the desired name for your virtual environment.
+Alternatively, run following command to create the virtual environment:
+
+```bash
+python -m venv myvenv
+```
+
+Replace `myvenv` with the desired name for your virtual environment.
 
 - Activate the virtual environment:
+
   - On **Windows**:
     ```cmd
     myvenv\Scripts\activate
@@ -157,3 +165,7 @@ eqm_kpis
 # Examples
 
 Check out the python notebooks in [docs/examples](docs/examples) for how to use the api.
+
+# Reporting Bugs
+
+If you find a bug, or run into an error, please raise an issue on the GitHub account.
