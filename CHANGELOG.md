@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.2] - 17/11/2025
+
+### Removed
+
+- the example code from the README.  The notebooks provide examples of how to use the API.
+
 ## [1.2.1] - 14/11/2025
 
 ### Added
