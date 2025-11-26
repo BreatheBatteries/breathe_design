@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.3] - 26/11/2025
+
+### Changed
+
+- changed some material names to lower case for consistency
+
 ## [1.2.2] - 17/11/2025
 
 ### Removed
