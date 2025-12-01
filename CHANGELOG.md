@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0] - 01/12/2025
+
+### Changed
+
+- Improved performance of simulation functions
+
 ## [1.2.3] - 26/11/2025
 
 ### Changed
