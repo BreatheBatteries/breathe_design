@@ -1,1 +1,1 @@
-breathe_design >= 1.3.0
+breathe_design >= 1.6.0
