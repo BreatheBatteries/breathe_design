@@ -1,5 +1,55 @@
 # Changelog
 
+## [1.6.0] - 05/02/2026
+
+### Changed
+
+- significant improvements in simulation speed and flexibility
+
+## [1.5.0] - 13/01/2026
+
+### Added
+
+- More flexible dynamic simulation with custom experiments and drive cycles
+
+## [1.4.0] - 02/01/2026
+
+### Added
+
+- `run_sim` function now accepts initial voltage or SoC
+
+## [1.3.3] - 10/12/2025
+
+## Changed
+
+- Renaming of variable names in dynamic results
+  Available variables:
+  Time [s]
+  Voltage [V]
+  Negative electrode potential [V]
+  Positive electrode potential [V]
+  Open-circuit voltage [V]
+  Negative electrode open-circuit potential [V]
+  Positive electrode open-circuit potential [V]
+  Cell temperature [°C]
+  SoC
+  Negative electrode state of charge
+  Positive electrode state of charge
+  Current [A]
+  Heat generation total [W]
+
+## [1.3.2] - 03/12/2025
+
+### Fixed
+
+- Download design with no designs now completes successfully and downloads the Baseline design
+
+## [1.3.1] - 03/12/2025
+
+### Added
+
+- `heatTransferCoefficient` parameter to dynamic simulations for better thermal control
+
 ## [1.3.0] - 01/12/2025
 
 ### Changed
@@ -16,7 +66,7 @@
 
 ### Removed
 
-- the example code from the README.  The notebooks provide examples of how to use the API.
+- the example code from the README. The notebooks provide examples of how to use the API.
 
 ## [1.2.1] - 14/11/2025
 
@@ -43,7 +93,7 @@
 ### Added
 
 - Progress bar to show simulation progress
-- Examples and utilities for performing Monte Carlo explorations of design variations.  See the example notebook `10 Manufacturing Variability.ipynb`
+- Examples and utilities for performing Monte Carlo explorations of design variations. See the example notebook `10 Manufacturing Variability.ipynb`
 
 ### Removed
 
@@ -54,7 +104,6 @@
 ### Fixed
 
 - Fixed possible timeout when running a large number of simulations at once
-
 
 ## [1.0.0] - 16/09/2025
 
