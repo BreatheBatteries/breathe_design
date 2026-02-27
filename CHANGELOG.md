@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.8.0] - 25/02/2026
+
+### Added
+
+- Optional `initialVoltageOcvType` argument to `run_sim` to control how initial SOC for simulations is determined when using the `initialVoltage` argument
+
+## [1.7.0] - 11/02/2026
+
+### Added
+
+- optional parameter`heatCapacity_kJkgK` to `run_api` to pass heat capacity to api
+
+### Fixed
+
+- Ensure DCIR values are positive
+
 ## [1.6.0] - 05/02/2026
 
 ### Changed
