@@ -1,3 +1,11 @@
+# DEPRECATED
+
+⚠️⚠️⚠️
+
+`breathe_design` is now `breathe_simulate`.  Please switch over to `breathe_simulate` and find the example documentation at https://github.com/BreatheBatteries/breathe_simulate.
+
+⚠️⚠️⚠️
+
 # Breathe Design
 
 A python based api wrapper for running the breathe design model.

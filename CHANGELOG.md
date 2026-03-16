@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.8.1] - 03/03/2026
+
+### Added
+
+- deprecation warning for `breathe_design` which is now moving to `breathe_simulate`
+
 ## [1.8.0] - 25/02/2026
 
 ### Added
